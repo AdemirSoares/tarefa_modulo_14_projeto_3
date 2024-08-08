@@ -1,0 +1,62 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: rgb(194, 40, 40);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(194, 40, 40);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-nossos-planos .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: "Oswald", sans-serif;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(247, 220, 220);
+}
+
+#sobre-a-academia,
+#nossos-planos {
+    background-color: rgb(247, 220, 220);
+}
+
+.text-colored {
+    color: rgb(194, 40, 40);
+}
+
+.nav-nossos-planos .nav-link.active,
+#fale-conosco button,
+footer {
+    background-color: rgb(194, 40, 40);
+    color: #fff;
+}
+
+.nav-nossos-planos .nav-link:hover {
+    color: rgb(194, 40, 40);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
